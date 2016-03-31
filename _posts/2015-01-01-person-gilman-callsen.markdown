@@ -1,13 +1,9 @@
 ---
-name: "Gilman Callsen"
-pic: gilman_callsen_bw.png
+name: "Mark Zediker"
+pic: mark_zediker_bw.png
 social:
-    - title: twitter
-      url: http://www.twitter.com/gcallsen
     - title: linkedin
-      url: https://www.linkedin.com/in/callsen
-    - title: github
-      url: https://github.com/gcallsen
+      url: https://www.linkedin.com/in/mark-zediker-40b87ba
 
 category: People
 
