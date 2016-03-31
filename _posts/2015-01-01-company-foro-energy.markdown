@@ -1,0 +1,10 @@
+---
+title: Foro Energy
+layout: default
+company-name: Foro Energy
+company-url: http://www.foroenergy.com
+thumbnail: foro_energy_logo_bw.png
+alt: image-alt
+category: Company
+
+---

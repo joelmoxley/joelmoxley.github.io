@@ -1,0 +1,38 @@
+  <footer class="bg-dark-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mobile-padding">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                        {% for contact_method in site.contact %}
+                        <li><a href="{{ contact_method.url }}"><i class="fa fa-{{ contact_method.icon }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-4 mobile-padding">
+                    <span class="copyright">
+                        Copyright &copy;
+                        Joel Moxley
+                        {{ site.copyright_year }}
+                    </span>
+                    <br />
+                    <span class="credits">
+                        Licenses:
+                        <a href="http://www.shutterstock.com/" target="_blank">
+                            Shutterstock</a>,
+                        <a href="http://www.myfonts.com/" target="_blank">
+                            MyFonts</a>,
+                        <a href="https://github.com/y7kim/agency-jekyll-theme" target="_blank">
+                            y7kim</a>
+                    </span>
+                </div>
+                <div class="col-md-4 mobile-padding">
+                    Fun. Cool. With Good People.
+                </div>
+            </div>
+        </div>
+    </footer>

@@ -1,0 +1,45 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3078879, 2015-08-20T21:59:58-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: MonticelloLT-Roman by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/monticello-lt/roman/
+ *
+ * Webfont: MonticelloLT-Italic by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/monticello-lt/italic/
+ *
+ * Webfont: MonticelloLT-SmallCaps by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/monticello-lt/small-caps/
+ *
+ * Webfont: MonticelloLT-Tabular by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/monticello-lt/tabular/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3078879
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright &#x00A9; 2003 - 2005 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Monticello is a trademark of Heidelber
+ *
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2efadf");
+
+
+@font-face {font-family: 'MonticelloLT-Roman';src: url('fonts/2EFADF_0_0.eot');src: url('fonts/2EFADF_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2EFADF_0_0.woff2') format('woff2'),url('fonts/2EFADF_0_0.woff') format('woff'),url('fonts/2EFADF_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'MonticelloLT-Italic';src: url('fonts/2EFADF_1_0.eot');src: url('fonts/2EFADF_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/2EFADF_1_0.woff2') format('woff2'),url('fonts/2EFADF_1_0.woff') format('woff'),url('fonts/2EFADF_1_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'MonticelloLT-SmallCaps';src: url('fonts/2EFADF_2_0.eot');src: url('fonts/2EFADF_2_0.eot?#iefix') format('embedded-opentype'),url('fonts/2EFADF_2_0.woff2') format('woff2'),url('fonts/2EFADF_2_0.woff') format('woff'),url('fonts/2EFADF_2_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'MonticelloLT-Tabular';src: url('fonts/2EFADF_3_0.eot');src: url('fonts/2EFADF_3_0.eot?#iefix') format('embedded-opentype'),url('fonts/2EFADF_3_0.woff2') format('woff2'),url('fonts/2EFADF_3_0.woff') format('woff'),url('fonts/2EFADF_3_0.ttf') format('truetype');}

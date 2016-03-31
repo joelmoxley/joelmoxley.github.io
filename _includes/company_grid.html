@@ -1,0 +1,39 @@
+<!-- Company Grid Section -->
+    <section id="companies" class="image-grid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Companies</h2>
+                    <h3 class="section-subheading text-muted">
+                        My Network of Companies.
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+            {% for post in site.posts %}
+                {% if post.category == 'Company' %}
+                <div class="col-md-4 col-sm-6 companies-item">
+
+                    <a href="{{ post.company-url }}" class="companies-link"
+                    target="_blank">
+                        <div class="companies-hover">
+                            <div class="companies-hover-content">
+                                {{ post.company-name }}
+                                <i class="fa fa-external-link"></i>
+                            </div>
+                        </div>
+                        <img src="img/companies/{{ post.thumbnail }}" class="img-responsive" alt="">
+                    </a>
+                    <div class="companies-caption">
+                        <h4>
+                            <a href="{{ post.founder-url }}" target="_blank">
+                                {{ post.title }}
+                            </a>
+                        </h4>
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
+            </div>
+        </div>
+    </section>
