@@ -10,8 +10,8 @@ copyright_year: 2016
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: f78f1e
-  secondary: fec503
+  primary: 008444
+  secondary: 238459
   secondary-dark: 333
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
