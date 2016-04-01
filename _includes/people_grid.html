@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div class="row">
-                {% for person in site.posts %}
+                {% for person in site.posts reversed %}
                     {% if person.category == 'People' %}
                         <div class="col-sm-4">
                             <div class="people-person">
