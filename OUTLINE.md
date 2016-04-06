@@ -18,3 +18,7 @@
     - Replicate http://www.luxcapital.com/news
  * Blog
     - Medium publication, need to model on a comp
+
+#Notes
+
+ * Add typing javascript on "Heavy Industry. Data Infrastructure."
