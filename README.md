@@ -7,9 +7,9 @@ Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templa
 
 ###Add New Section
 
-Update defaults file
-Create the html page in _includes
-Update the navigation in header.html
+ * Update defaults file
+ * Create the html page in _includes
+ * Update the navigation in header.html
 
 ###Portfolio 
 
