@@ -5,6 +5,12 @@ Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templa
 
 # How to use
 
+###Add New Section
+
+Update defaults file
+Create the html page in _includes
+Update the navigation in header.html
+
 ###Portfolio 
 
 Portfolio projects are in '/_posts'
