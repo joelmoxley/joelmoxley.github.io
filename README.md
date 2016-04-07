@@ -30,6 +30,12 @@ Team members and info are in '_config.yml'
 Images are in '/img/team/'
 
 
+### News
+
+Create a new post with -news- instead of company / person
+
+News subdirectory under img, put the logo 100 px max
+
 # Demo
 
 View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
