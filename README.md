@@ -15,6 +15,8 @@ Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templa
 
 Portfolio projects are in '/_posts'
 
+Ordered by filename
+
 Images are in '/img/portfolio'
 
 ###About
