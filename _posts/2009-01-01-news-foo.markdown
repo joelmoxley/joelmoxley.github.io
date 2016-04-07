@@ -1,0 +1,10 @@
+---
+title: News title blurb
+layout: default
+date: BBHedge
+article-url:
+thumbnail: pit_rho_logo_bw.png
+alt: image-alt
+category: News
+
+---
