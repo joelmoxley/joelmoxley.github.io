@@ -24,4 +24,4 @@
  * Add typing javascript on "Heavy Industry. Data Infrastructure." -- http://interviewing.io/javascript/anim.js
  * Video http://dissolve.com/products?utf8=%E2%9C%93&keywords=massachusetts+institute+of+technology&media_type=video
  * Example video http://dissolve.com/products/002-D118-86-257
- * Turn the maps into twitter lists with kezia
+ * Turn the maps into twitter lists with kezia -- landscape with google trends
