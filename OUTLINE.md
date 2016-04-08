@@ -25,4 +25,7 @@
  * Video http://dissolve.com/products?utf8=%E2%9C%93&keywords=massachusetts+institute+of+technology&media_type=video
  * Example video http://dissolve.com/products/002-D118-86-257
  * Turn the maps into twitter lists with kezia -- landscape with google trends
+ * http://bradkeywell.com/
+ * book -- cognizant of signals we send
+ * 
  * Broad presence -- map stuff
