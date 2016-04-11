@@ -29,4 +29,6 @@
  * book -- cognizant of signals we send
  * bells palsy resources
  * video and spotify resources
+ * Formation docs resources -- Gammell
+ * IP docs resources -- Belvis
  * Broad presence -- map stuff
