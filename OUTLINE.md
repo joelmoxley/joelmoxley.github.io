@@ -27,5 +27,6 @@
  * Turn the maps into twitter lists with kezia -- landscape with google trends
  * http://bradkeywell.com/
  * book -- cognizant of signals we send
- * 
+ * bells palsy resources
+ * video and spotify resources
  * Broad presence -- map stuff
