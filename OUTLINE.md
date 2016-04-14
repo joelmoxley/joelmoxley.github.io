@@ -33,3 +33,4 @@
  * Formation docs resources -- Gammell
  * IP docs resources -- Belvis
  * Broad presence -- map stuff
+ * "Stuff" section with Cyclotron Road (aligned with Ilan) and Chemical Engineering Book (aligned with Hal)
