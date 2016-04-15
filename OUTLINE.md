@@ -7,6 +7,7 @@
  * Companies & People
     - Where the rubber meets the road, it needs to convey the full 11x17 context
     - (The people are going to be a key organizing item on the blog, so unsure if there is a tie-in)
+ * Investments [Angel Portfolio]
  * Impact
     - Discussing positive impact of my projects and investments
     - Is there a tie-in to the companies above?
