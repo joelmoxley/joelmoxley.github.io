@@ -298,7 +298,6 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -307,18 +306,39 @@ header {
     -o-background-size: cover;
 }
 
-header .intro-text {
+/* Homepage */
+header.header-homepage {
+    background-image: url(../img/header-bg.jpg);
+}
+
+header.header-homepage .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
-header .intro-text .intro-lead-in {
+header.header-homepage .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-size: 22px;
     line-height: 22px;
 }
 
-header .intro-text .intro-heading {
+/* Sub pages */
+header.header-sub-page {
+    background-image: url(../img/header-bg.jpg);
+}
+
+header.header-sub-page .intro-text {
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+
+header.header-sub-page .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+header.header-sub-page .intro-text .intro-heading {
     margin-bottom: 10px;
     font-size: 30px;
     font-weight: 700;
@@ -326,18 +346,38 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
-    header .intro-text {
+    /* Home page */
+    header.header-homepage .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
     }
 
-    header .intro-text .intro-lead-in {
+    header.header-homepage .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-size: 40px;
         line-height: 40px;
     }
 
-    header .intro-text .intro-heading {
+    header.header-homepage .intro-text .intro-heading {
+        margin-bottom: 20px;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 45px;
+    }
+
+    /* sub pages */
+    header.header-sub-page .intro-text {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    header.header-sub-page .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    header.header-sub-page .intro-text .intro-heading {
         margin-bottom: 20px;
         font-size: 45px;
         font-weight: 700;
