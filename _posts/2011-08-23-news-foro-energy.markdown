@@ -3,7 +3,7 @@ title: Innovator Under 35 Joel Moxley, 31, drilling with lasers
 layout: default
 date: August 23, 2011
 article-url: http://www2.technologyreview.com/tr35/profile.aspx?TRID=1107
-thumbnail: technology-review-logo-bw.png
+thumbnail: mit-technology-review-logo-bw.png
 alt: image-alt
 category: News
 
