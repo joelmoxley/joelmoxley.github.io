@@ -293,6 +293,9 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+.col-news-list { padding: 5px 0; }
+    .col-news-list h4, .col-news-list img { margin: 15px 0; }
+
 header {
     font-family: "MonticelloLT-Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: center;
@@ -328,8 +331,8 @@ header.header-sub-page {
 }
 
 header.header-sub-page .intro-text {
-    padding-top: 100px;
-    padding-bottom: 25px;
+    padding-top: 75px;
+    padding-bottom: 0px;
 }
 
 header.header-sub-page .intro-text .intro-lead-in {
@@ -367,8 +370,8 @@ header.header-sub-page .intro-text .intro-heading {
 
     /* sub pages */
     header.header-sub-page .intro-text {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 150px;
+        padding-bottom: 25px;
     }
 
     header.header-sub-page .intro-text .intro-lead-in {
@@ -386,7 +389,7 @@ header.header-sub-page .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2.section-heading {
@@ -407,7 +410,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 50px 0;
     }
 }
 

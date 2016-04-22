@@ -8,7 +8,9 @@ social:
       url: https://www.linkedin.com/in/erikchristianallen
     - title: github
       url: https://github.com/ecallen7979
-
+company_affiliations:
+    - name: Foro Energy
+    - name: Pit Rho
 category: People
 
 ---

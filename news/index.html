@@ -8,15 +8,25 @@ header_class: header-sub-page
 <!-- Page Section -->
 <section id="news" class="">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
 
-                NEWS CONTENT
-                <br>
-                <br>
-                Possibly also your blog and whatnot can be on this page...
+        {% for post in site.posts %}
+            {% if post.category == 'News' %}
 
-            </div>
-        </div>
+                <div class="row">
+                    <div class="col-lg-2 col-news-list">
+
+                        <img
+                            src="/img/press/{{ post.thumbnail }}"
+                            class="img-responsive"
+                            alt="">
+                    </div>
+                    <div class="col-lg-10 col-news-list">
+                        <h4>{{ post.title }}</h4>
+
+                    </div>
+                </div>
+
+            {% endif %}
+        {% endfor %}
     </div>
 </section>

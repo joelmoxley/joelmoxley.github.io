@@ -13,34 +13,9 @@
             {% for post in site.posts %}
                 {% if post.category == 'Company' %}
                 <div class="col-md-6 col-sm-12 companies-item">
-
-                    <a href="{{ post.company-url }}" class="companies-link"
-                    target="_blank">
-                        <!-- <div class="companies-hover">
-                            <div class="companies-hover-content">
-                                {{ post.company-name }}
-                                <i class="fa fa-external-link"></i>
-                            </div>
-                        </div> -->
+                    <a href="/companies/{{ post.url-name }}" class="companies-link">
                         <img src="/img/companies/{{ post.thumbnail }}" class="img-responsive" alt="">
                     </a>
-                    <!-- <a href="{{ post.company-url }}" class="companies-link"
-                    target="_blank">
-                        <div class="companies-hover">
-                            <div class="companies-hover-content">
-                                {{ post.company-name }}
-                                <i class="fa fa-external-link"></i>
-                            </div>
-                        </div>
-                        <img src="img/companies/{{ post.thumbnail }}" class="img-responsive" alt="">
-                    </a> -->
-                    <!-- <div class="companies-caption">
-                        <h4>
-                            <a href="{{ post.founder-url }}" target="_blank">
-                                {{ post.title }}
-                            </a>
-                        </h4>
-                    </div> -->
                 </div>
                 {% endif %}
             {% endfor %}

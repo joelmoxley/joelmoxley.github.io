@@ -1,0 +1,77 @@
+---
+layout: company-layout
+title: None
+sub_title: None
+header_class: header-sub-page
+---
+
+<!-- Page Section -->
+<section id="companies-and-people" class="" style="margin: 0;">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+
+                <img src="/img/companies/bbhedge_logo.png" title="BBHedge" />
+
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-12 ">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. De quibus cupio scire quid sentias. Sed ille, ut dixi, vitiose. Quo studio Aristophanem putamus aetatem in litteris duxisse? At ille pellit, qui permulcet sensum voluptate. Verba tu fingas et ea dicas, quae non sentias? Duo Reges: constructio interrete. Ego vero volo in virtute vim esse quam maximam; Duo enim genera quae erant, fecit tria. </p>
+                <p>Hoc dixerit potius Ennius: Nimium boni est, cui nihil est mali. Nam quid possumus facere melius? Quid iudicant sensus? Quae animi affectio suum cuique tribuens atque hanc, quam dico. </p>
+                <p>Dici enim nihil potest verius. Saepe ab Aristotele, a Theophrasto mirabiliter est laudata per se ipsa rerum scientia; Videsne, ut haec concinant? Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Conferam tecum, quam cuique verso rem subicias; Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam; Cum id fugiunt, re eadem defendunt, quae Peripatetici, verba. </p>
+                <p>Non minor, inquit, voluptas percipitur ex vilissimis rebus quam ex pretiosissimis. Non igitur potestis voluptate omnia dirigentes aut tueri aut retinere virtutem. At ego quem huic anteponam non audeo dicere; Hinc ceteri particulas arripere conati suam quisque videro voluit afferre sententiam. Nunc omni virtuti vitium contrario nomine opponitur. Longum est enim ad omnia respondere, quae a te dicta sunt. An quod ita callida est, ut optime possit architectari voluptates? Sic enim maiores nostri labores non fugiendos tristissimo tamen verbo aerumnas etiam in deo nominaverunt. </p>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">The People</h2>
+                <h3 class="section-subheading text-muted">
+                    Some sub heading
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            {% for post in site.posts %}
+                {% if post.category == 'People' %}
+                    {% for affiliation in post.company_affiliations %}
+                        {% if affiliation.name == 'BBHedge' %}
+
+                        <div class="col-sm-4">
+                            <div class="people-person">
+                                <img
+                                    src="/img/people/{{ post.pic }}"
+                                    class="img-responsive img-circle"
+                                    alt="">
+                                <h4>{{ post.name }}</h4>
+                                <br />
+                                <ul class="list-inline social-buttons">
+                                    {% for network in post.social %}
+                                    <li>
+                                        <a
+                                            href="{{ network.url }}"
+                                            target="_blank">
+                                            <i class="fa fa-{{ network.title }}">
+                                            </i>
+                                        </a>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

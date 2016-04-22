@@ -8,7 +8,8 @@ social:
       url: https://www.linkedin.com/in/callsen
     - title: github
       url: https://github.com/gcallsen
-
+company_affiliations:
+    - name: Pit Rho
 category: People
 
 ---

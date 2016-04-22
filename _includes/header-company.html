@@ -1,0 +1,19 @@
+
+<!-- Header -->
+<header class="{{ page.header_class }}">
+    <div class="container">
+        <div class="intro-text">
+            {% if page.title != 'None' %}
+                <div class="intro-heading">
+                     {{ page.title }}
+                </div>
+            {% endif %}
+
+            {% if page.sub_title != 'None' %}
+                <div class="intro-lead-in">
+                    {{ page.sub_title }}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</header>

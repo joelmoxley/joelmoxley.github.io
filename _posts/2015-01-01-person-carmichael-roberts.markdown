@@ -6,7 +6,9 @@ social:
       url: http://www.twitter.com/carmichaelvc
     - title: linkedin
       url: https://www.linkedin.com/in/carmichaelsroberts
-
+company_affiliations:
+    - name: Foro Energy
+    - name: Pit Rho
 category: People
 
 ---
