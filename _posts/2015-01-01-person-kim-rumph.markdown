@@ -6,7 +6,7 @@ social:
       url: http://www.twitter.com/gcallsen
     - title: linkedin
       url: https://www.linkedin.com/in/kim-rumph-37567634
-company-affiliations:
+company_affiliations:
     - name: Rubicon
 
 category: People
