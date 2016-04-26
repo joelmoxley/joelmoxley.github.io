@@ -7,7 +7,7 @@ social:
     - title: linkedin
       url: https://www.linkedin.com/in/nate-morris-1784b5bb
 company_affiliations:
-    - name: Rubicon Global
+    - name: Rubicon
 
 category: People
 
