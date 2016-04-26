@@ -4,7 +4,9 @@ layout: default
 date: January 22, 2015
 article-url: https://www.youtube.com/watch?v=oa461lj-yP8
 thumbnail: world-economic-forum-logo-bw.png
+company-thumbnail: biota_logo_bw.png
 alt: image-alt
 category: News
+company: biota
 
 ---
