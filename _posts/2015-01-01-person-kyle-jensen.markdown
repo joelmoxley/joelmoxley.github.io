@@ -1,5 +1,5 @@
 ---
-name: "Dr. Kyle Jensen"
+name: "Kyle Jensen"
 pic: kyle_jensen_bw.png
 social:
     - title: twitter
