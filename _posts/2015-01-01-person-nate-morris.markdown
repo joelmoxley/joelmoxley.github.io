@@ -6,6 +6,8 @@ social:
       url: http://www.twitter.com/NateMorrisKY
     - title: linkedin
       url: https://www.linkedin.com/in/nate-morris-1784b5bb
+company_affiliations:
+    - name: Rubicon Global
 
 category: People
 
