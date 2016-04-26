@@ -6,6 +6,8 @@ social:
       url: http://www.twitter.com/dmorey
     - title: linkedin
       url: https://www.linkedin.com/in/dmorey
+company_affiliations:
+    - name: Pit Rho
 
 category: People
 
