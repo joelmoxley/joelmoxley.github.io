@@ -4,7 +4,9 @@ layout: default
 date: February 16, 2016
 article-url: http://www.fastcompany.com/most-innovative-companies/sectors/social-good
 thumbnail: fast-company-logo-bw.png
+company-thumbnail: rubicon_logo_bw.png
 alt: image-alt
 category: News
+company: rubicon
 
 ---
