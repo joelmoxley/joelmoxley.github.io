@@ -9,6 +9,7 @@ social:
 company_affiliations:
     - name: Foro Energy
     - name: Pit Rho
+    - name: Zero Mass
 category: People
 
 ---
