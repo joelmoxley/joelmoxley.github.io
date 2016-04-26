@@ -7,7 +7,7 @@ social:
     - title: linkedin
       url: https://www.linkedin.com/in/cooperrinzler
 company_affiliations:
-    - title: Foro Energy
+    - name: Foro Energy
 
 category: People
 
