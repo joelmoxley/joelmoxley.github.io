@@ -4,7 +4,9 @@ layout: default
 date: January 10, 2010
 article-url: http://www.denverpost.com/business/ci_14155031
 thumbnail: denver-post-logo-bw.png
+company-thumbnail: foro_energy_logo_bw.png
 alt: image-alt
 category: News
+company: foro-energy
 
 ---
