@@ -4,7 +4,9 @@ layout: default
 date: February 1, 2016
 article-url: https://portal.luxresearchinc.com/research/profile_excerpt/Biota_Technology
 thumbnail: lux-research-logo-bw.png
+company-thumbnail: biota_logo_bw.png
 alt: image-alt
 category: News
+company: biota
 
 ---

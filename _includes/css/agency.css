@@ -293,9 +293,10 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+.row-news-list { border-bottom: 1px solid #eee; padding: 0 10px; }
 .col-news-list { padding: 5px 0; }
-    .col-news-list h4, .col-news-list img { margin: 15px 0; }
-
+    .col-news-list h4 { margin: 15px 0; }
+    .col-news-list img { display: inline; margin: 15px 10px 15px 0px; }
 header {
     font-family: "MonticelloLT-Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: center;

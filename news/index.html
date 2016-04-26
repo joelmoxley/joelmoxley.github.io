@@ -12,16 +12,48 @@ header_class: header-sub-page
         {% for post in site.posts %}
             {% if post.category == 'News' %}
 
-                <div class="row">
-                    <div class="col-lg-2 col-news-list">
+                <div class="row row-news-list">
+                    <div class="col-lg-3 col-news-list">
 
+                        {% if post.thumbnail %}
                         <img
                             src="/img/press/{{ post.thumbnail }}"
                             class="img-responsive"
                             alt="">
+                        {% endif %}
+
+                        {% if post.company-thumbnail and post.company %}
+                        &#124;
+                        <a href="/companies/{{ post.company }}">
+                            <img
+                                src="/img/companies/{{ post.company-thumbnail }}"
+                                class="img-responsive"
+                                alt=""
+                                style="width: 100px;">
+                        </a>
+                        {% endif %}
+
+                        {% if post.investment-thumbnail and post.investment %}
+                        &#124;
+                        <a href="/investments/{{ post.investment }}">
+                            <img
+                                src="/img/investments/{{ post.investment-thumbnail }}"
+                                class="img-responsive"
+                                alt=""
+                                style="width: 100px;">
+                        </a>
+                        {% endif %}
+
                     </div>
-                    <div class="col-lg-10 col-news-list">
-                        <h4>{{ post.title }}</h4>
+                    <div class="col-lg-9 col-news-list">
+                        <h4>
+                            <a href="{{ post.article-url }}" target="_blank">
+                                {{ post.title }}
+                            </a>
+                        </h4>
+                        <span>
+                            {{ post.date | date: '%B %d, %Y' }}
+                        </span>
 
                     </div>
                 </div>
