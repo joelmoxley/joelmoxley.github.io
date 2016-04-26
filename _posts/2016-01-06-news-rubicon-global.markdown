@@ -4,7 +4,9 @@ layout: default
 date: January 6, 2016
 article-url: http://knowledge.wharton.upenn.edu/article/the-sharing-economy-a-new-way-of-doing-business/
 thumbnail: wharton-logo-bw.png
+company-thumbnail: rubicon_logo_bw.png
 alt: image-alt
 category: News
+company: rubicon
 
 ---
