@@ -6,5 +6,6 @@ article-url: http://mitei.mit.edu/news/us-department-energy-leaders-highlight-cl
 thumbnail: mit-logo-bw.png
 alt: image-alt
 category: News
+company: foro-energy
 
 ---
