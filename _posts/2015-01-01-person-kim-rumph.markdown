@@ -7,7 +7,7 @@ social:
     - title: linkedin
       url: https://www.linkedin.com/in/kim-rumph-37567634
 company_affiliations:
-    - name: Rubicon
+    - name: Rubicon Global
 
 category: People
 
