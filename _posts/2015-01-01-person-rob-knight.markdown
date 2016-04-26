@@ -8,6 +8,8 @@ social:
       url: https://www.linkedin.com/in/rob-knight-65a1b5aa
     - title: github
       url: https://github.com/rob-knight
+company_affiliations:
+    - name: Biota
 
 category: People
 
