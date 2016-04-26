@@ -4,7 +4,9 @@ layout: default
 date: March 3, 2016
 article-url: http://link.springer.com/protocol/10.1007/8623_2015_175
 thumbnail: springer-logo-bw.png
+company-thumbnail: biota_logo_bw.png
 alt: image-alt
 category: News
+company: biota
 
 ---
