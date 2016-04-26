@@ -8,6 +8,9 @@ social:
       url: https://www.linkedin.com/in/kylelawrencejensen
     - title: github
       url: https://github.com/kljensen
+company_affiliations:
+    - name: Pit Rho
+    - name: PriorSmart
 
 category: People
 
